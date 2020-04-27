@@ -1,0 +1,367 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*================================================*/
+
+/*==================  Header  ====================*/
+.header {
+  width: 1440px;
+  height: 135px;
+}
+
+.header h1 {
+  padding-top: 37px;
+  margin-bottom: 46px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 47px;
+  letter-spacing: 1px;
+}
+
+.nav-flex {
+  width: 1170px;
+  padding: 0;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-flex li {
+  list-style: none;
+  margin-left: 2px;
+}
+
+.nav-flex a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+/*==================  Header-end  ================*/
+
+/*====================  main  =====================*/
+.underwater-hotel {
+  width: 1440px;
+  height: 464px;
+  background: url("../img/Mask-Group.jpg");
+  background-repeat: no-repeat;
+}
+
+.Logo {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 693px;
+  top: 264px;
+}
+
+.underwater-hotel h2 {
+  padding-top: 134px;
+  margin-bottom: 132px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.underwater-hotel p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 456px;
+  height: 64px;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+/*================================================*/
+
+.reviews {
+  z-index: 1;
+  position: sticky;
+  width: 1440px;
+  height: 463px;
+}
+
+.reviews h3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+}
+
+.reviews .color {
+  color: #FF7931;
+}
+
+.reviews h2 {
+  padding-top: 31px;
+  margin-right: 1px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.reviews-flex {
+  width: 1200px;
+  margin-left: 3px;
+  padding: 0 0 15px 15px;
+  display: flex;
+}
+
+.reviews-flex li {
+  list-style: none;
+  margin-right: 29px;
+}
+
+.reviews .reviews-flex p {
+  margin-top: 0;
+  width: 355px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+/*================================================*/
+
+.offers {
+  margin: -12px;
+  height: 556px;
+  background-color: #F7F7F7;
+
+}
+
+.offers-container {
+  display: inline-block;
+  position: absolute;
+  top: 1070px;
+  left:365px;
+  padding: 95px 65px  50px 30px;
+  width: 707px;
+  height: 707px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+
+.offers h2 {
+  margin-left: 30px;
+  margin-bottom: 35px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+
+.offers-flex {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+
+
+.offers-flex h3 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.offers-flex p {
+  width: 370px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+
+.offers-flex li {
+  height: 125px;
+  list-style: none;
+  text-align: center;
+  margin-left: 30px;
+}
+
+
+
+.offers-flex li::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  left: 305px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.offers-flex li:last-child::after {
+  border: none;
+}
+
+.btn-offers {
+  margin-left: 200px;
+  margin-top: 9px;
+
+  display: block;
+  width: 170px;
+  height: 47px;
+  background: #FF7931;
+}
+
+.btn-offers a {
+  position: relative;
+  left: 30px;
+  top: 13px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.btn-offers a::after {
+  position: absolute;
+  top: -6px;
+  right: -18px;
+  width: 10px;
+  height: 10px;
+  content: url("../img/Arrow-forward.svg");
+}
+/*==================  main-end  ====================*/
+
+/*==================    Footer    ==================*/
+
+.footer {
+  z-index: 1;
+  position: sticky;
+  width: 1440px;
+  background-color: #575757;
+}
+
+.footer .footer-top h2 {
+  margin-top: 61px;
+  margin-left: 30px;
+  margin-bottom: 32px;
+  padding-top: 26px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.footer-nav a {
+  color: #FFFFFF;
+}
+
+.footer-top {
+  margin: 0 auto;
+  margin-right: 50px;
+  width: 1170px;
+  height: 160px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.footer-bottom-flex {
+  width: 350px;
+  margin-left: 475px;
+  display: flex;
+  padding-bottom: 46px;
+}
+
+.footer-bottom-flex li {
+  list-style: none;
+  width: 47px;
+  height: 47px;
+  background-color: #ffffff;
+  padding: 0;
+  margin-top: 26px;
+  margin-right: 13px;
+}
+
+.footer-bottom-flex a::after {
+  margin-top: 9px;
+  margin-left: -10px;
+  content:"";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/spritesheet.png");
+  background-repeat: no-repeat;
+}
+
+.footer-bottom-flex .footer-inst::after  {
+  width: 30px;
+  left: 650px;
+  background-position: -20px -2px;
+}
+
+.footer-bottom-flex .footer-fsb::after  {
+  left: 719px;
+  width: 20px;
+  background-position: -1px -1px;
+}
+
+.footer-bottom-flex .footer-tvit::after  {
+  left: 779px;
+  background-position: -5px -33px;
+}
+
+
+/*================  footer-end  ==================*/
